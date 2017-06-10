@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*font-family: 'Oswald', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/*font-family: 'Lato', sans-serif;*/
+
+html, body {
+  /*background-image: url('rebirth-of-reddit/assets/bg.jpg');*/
+  background-size: cover;
+}
+
+.header {
+  top: 0px;
+  background-color: yellow;
+  height: 70px;
+  width: 100%;
+}
+
+.grey-container {
+  background-color: #3a3a3c;
+  height: 40px;
+  width: 100%;
+}
+
+.container {
+
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 16px;     /* fallback */
+  max-height: 32px;      /* fallback */
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  font-size: 20px;
+}
+
+.otherInfo {
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   line-height: 16px;     /* fallback */
+   max-height: 32px;      /* fallback */
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.summary {
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   /*line-height: 16px; */    /* fallback */
+   /*max-height: 32px; */     /* fallback */
+   -webkit-line-clamp: 4; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+
