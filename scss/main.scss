@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*font-family: 'Oswald', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+/*font-family: 'Lato', sans-serif;*/
+@import "partials/article";
+@import "partials/nav";
+@import "partials/footer";
+
+@mixin no-text-decoration() {
+  a {text-decoration: none;}
+  a:hover {text-orientation: none;}
+  a:visited {text-orientation: none;}
+  a:focus {text-orientation: none;}
+}
+
+$light-grey: #818285;
+$dark-grey: #3a3a3c;
+
+body {
+  background-image: url('/assets/bg.jpg');
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  @include no-text-decoration();
+}
+
+.header {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+}
+
+.grey-container {
+  background-color: $dark-grey;
+  text-align: center;
+  height: 35px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+  padding: 30px;
+}

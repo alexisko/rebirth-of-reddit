@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+$blood-orange: #f1592a;
+$light-grey: #818285;
+
+#nav {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color: $light-grey;
+  padding: 5px;
+  a {
+    color: $light-grey;
+  }
+  a:hover {
+    color: $blood-orange;
+  }
+}
+
+#inner {
+  margin: 0 auto;
+}
+
