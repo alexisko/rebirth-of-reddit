@@ -5,20 +5,21 @@ $blood-orange: #f1592a;
 $dark-grey: #3a3a3c;
 $ligh-grey: #818285;
 
- h1 {
-   font-family: 'Oswald', sans-serif;
-   font-size: 25px;
- }
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
 
- a {
-    color: $dark-grey;
- }
+a {
+  color: $dark-grey;
+}
 
- a:hover {
-   color: $blood-orange;
- }
+a:hover {
+  color: $blood-orange;
+}
 
 .article {
+  box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.5) inset, 0 5px 20px rgba(0, 0, 0, 0.5);
   background-color: white;
   display: inline-block;
   text-align: center;
@@ -26,10 +27,23 @@ $ligh-grey: #818285;
   margin: 20px;
   padding: 20px;
   width: 315px;
+  height: 275px;
+
+  img {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+.article:hover {
+  border: 5px solid $orange;
+  width: 305px;
+  height: 265px;
 }
 
 .images {
   background-color: #e9e9e9;
+  color: #d3d1d1;
   margin: auto;
   width: 250px;
   height: 150px;
@@ -48,8 +62,8 @@ $ligh-grey: #818285;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  line-height: 16px;     /* fallback */
-  max-height: 32px;      /* fallback */
+  /*line-height: 16px;     /* fallback */
+  /*max-height: 32px;      /* fallback */
   -webkit-line-clamp: 2; /* number of lines to show */
   -webkit-box-orient: vertical;
   color: $ligh-grey;

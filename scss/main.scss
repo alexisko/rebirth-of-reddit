@@ -4,7 +4,7 @@
 /*font-family: 'Lato', sans-serif;*/
 @import "partials/article";
 @import "partials/nav";
-@import "partials/footer";
+@import "partials/header";
 
 @mixin no-text-decoration() {
   a {text-decoration: none;}
@@ -25,25 +25,42 @@ body {
 }
 
 .header {
+  width: 100%;
   background-color: white;
-  height: 50px;
-  width: 100%;
-}
-
-.grey-container {
-  background-color: $dark-grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  vertical-align: middle;
   text-align: center;
-  height: 35px;
-  width: 100%;
+  padding: 10px;
+  height: 50px;
 }
 
 .container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0 auto;
-  width: 800px;
+  width: 80%;
   padding: 30px;
 }
+
+.grey-container {
+  width: 100%;
+  background-color: $dark-grey;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+}
+
+.inner {
+  margin: 0 auto;
+}
+
+

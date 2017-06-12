@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 $blood-orange: #f1592a;
 $light-grey: #818285;
+$dark-grey: #3a3a3c;
 
 #nav {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 15px;
   color: $light-grey;
-  padding: 5px;
+
   a {
     color: $light-grey;
   }
@@ -16,7 +17,4 @@ $light-grey: #818285;
   }
 }
 
-#inner {
-  margin: 0 auto;
-}
 
