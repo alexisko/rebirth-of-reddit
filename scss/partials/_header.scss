@@ -4,11 +4,12 @@ $dark-orange: #b74326;
 
 #title {
   position: relative;
+  width: 100%;
 }
 
 #header {
   position: absolute;
-  left: 145px;
+  transform: translateX(-220%);
   top: 0px;
   z-index: 1;
 }
@@ -18,13 +19,16 @@ $dark-orange: #b74326;
   top: 20px;
 }
 
+#btn-container {
+  float: right;
+}
+
 #side-btn {
   height: 30px;
   width: 30px;
   border: 1px solid $orange;
   font-size: 25px;
   color: $dark-orange;
-  float: right;
 }
 
 #side-btn:hover {
